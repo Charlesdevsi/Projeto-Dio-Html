@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #cdcdcd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    background-color: slategray;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    background-color: slategrey;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    background-color: gray;
+}
+figure {
+    text-align: center;
+}
+
+.foto1 {
+    height: 150px;
+    width: 476px;
+    
+}
+.foto2 {
+    height: 325px;
+    padding: 10px;
+}
+.geral {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+strong {
+    color: blue;
+}
+.serie{
+    font-weight: 100;
+    right:15px;
+    font-style: oblique;
+}
+
+.wiki {
+     height: 150px;
+     padding-left: 50%;
+}  
+.logo{
+    background-color: #cdcdcd;
+}
+   
+
+
+
+
+
+
+
+
+
+}
+#
